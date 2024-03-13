@@ -1,9 +1,12 @@
 const express = require('express')
-// const fact = require('./factorial/fact')
 const cluster = require('cluster')
 const os = require('os')
 
-const prime = require('./prime/prime')
+// const prime = require('./prime/prime')
+// const fact = require('./factorial/fact')
+// const prime = require('./fibonacci/recursiveFibo')
+const prime = require('.//factorial/recursiveFact')
+// const pow = require('./pow')
 
 
 const app = express()

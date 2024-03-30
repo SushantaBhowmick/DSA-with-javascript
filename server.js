@@ -5,8 +5,12 @@ const os = require('os')
 // const prime = require('./prime/prime')
 // const fact = require('./factorial/fact')
 // const prime = require('./fibonacci/recursiveFibo')
-const prime = require('.//factorial/recursiveFact')
+// const prime = require('./factorial/recursiveFact')
+
+const lcs = require('./DSA/String/string')
+
 // const pow = require('./pow')
+// const gcd = require('./gcd')
 
 
 const app = express()

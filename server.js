@@ -7,7 +7,8 @@ const os = require('os')
 // const prime = require('./fibonacci/recursiveFibo')
 // const prime = require('./factorial/recursiveFact')
 
-const lcs = require('./DSA/String/string')
+// const lcs = require('./DSA/String/string')
+const LinkedList = require('./DSA/LinkedList/LinkedList')
 
 // const pow = require('./pow')
 // const gcd = require('./gcd')

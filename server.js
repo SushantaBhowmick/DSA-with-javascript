@@ -2,8 +2,8 @@ const express = require('express')
 const cluster = require('cluster')
 const os = require('os')
 
-// const dsaArr = require('./DSA/Array/arrayManage')
-const Algorithm = require('./Algorithm/algoServer')
+const dsaArr = require('./DSA/Array/arrayManage')
+// const Algorithm = require('./Algorithm/algoServer')
 
 const app = express()
 const Port = 4000;

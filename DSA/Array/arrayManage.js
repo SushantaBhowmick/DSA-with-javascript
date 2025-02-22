@@ -1,1 +1,2 @@
-const missingNumber = require('./missingNumber')
+// const missingNumber = require('./missingNumber')
+const duplicateNum = require('./duplicateNum')

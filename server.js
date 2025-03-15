@@ -4,8 +4,9 @@ const os = require('os')
 
 // const dsaArr = require('./DSA/Array/arrayManage')
 // const Algorithm = require('./Algorithm/algoServer')
-const Leetcode = require('./LeetCode/LeetCodeServer')
-const arryServer =require('./Array/arrayServer')
+// const Leetcode = require('./LeetCode/LeetCodeServer')
+// const arryServer =require('./Array/arrayServer')
+const sortingServer =require('./Sorting/sortingServer')
 
 const app = express()
 const Port = 4000;

@@ -7,7 +7,8 @@ const os = require('os')
 // const Leetcode = require('./LeetCode/LeetCodeServer')
 // const arryServer =require('./Array/arrayServer')
 // const sortingServer =require('./Sorting/sortingServer')
-const miscServer =require('./Algorithm/misc-problems/miscServer')
+// const miscServer =require('./Algorithm/misc-problems/miscServer')
+const JsArr = require('./JS/JSArr.server')
 
 const app = express()
 const Port = 4000;

@@ -8,7 +8,8 @@ const os = require('os')
 // const arryServer =require('./Array/arrayServer')
 // const sortingServer =require('./Sorting/sortingServer')
 // const miscServer =require('./Algorithm/misc-problems/miscServer')
-const JsArr = require('./JS/JSArr.server')
+// const JsArr = require('./JS/JSArr.server')
+const gfgArray = require('./GFG/Array/arrayServer')
 
 const app = express()
 const Port = 4000;

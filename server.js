@@ -2,17 +2,14 @@ const express = require('express')
 const cluster = require('cluster')
 const os = require('os')
 
-// const prime = require('./prime/prime')
-// const fact = require('./factorial/fact')
-// const prime = require('./fibonacci/recursiveFibo')
-// const prime = require('./factorial/recursiveFact')
-
-// const lcs = require('./DSA/String/string')
-const LinkedList = require('./DSA/LinkedList/LinkedList')
-
-// const pow = require('./pow')
-// const gcd = require('./gcd')
-
+// const dsaArr = require('./DSA/Array/arrayManage')
+// const Algorithm = require('./Algorithm/algoServer')
+// const Leetcode = require('./LeetCode/LeetCodeServer')
+// const arryServer =require('./Array/arrayServer')
+// const sortingServer =require('./Sorting/sortingServer')
+// const miscServer =require('./Algorithm/misc-problems/miscServer')
+// const JsArr = require('./JS/JSArr.server')
+const gfgArray = require('./GFG/Array/arrayServer')
 
 const app = express()
 const Port = 4000;

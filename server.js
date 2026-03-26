@@ -9,7 +9,14 @@ const os = require('os')
 // const sortingServer =require('./Sorting/sortingServer')
 // const miscServer =require('./Algorithm/misc-problems/miscServer')
 // const JsArr = require('./JS/JSArr.server')
-const gfgArray = require('./GFG/Array/arrayServer')
+// const gfgArray = require('./GFG/Array/arrayServer')
+// const eventLoop = require('./EventLoop')
+// const interview = require('./Interview')
+// const practice = require('./Practice')
+
+
+// const V2 = require('./V2/v2')
+const pactap = require('./pactap')
 
 const app = express()
 const Port = 4000;
@@ -33,6 +40,8 @@ const Port = 4000;
 app.listen(Port,()=>{
     console.log(`Worker ${process.pid} started port ${Port}`);
 })
+
+
 
 
 

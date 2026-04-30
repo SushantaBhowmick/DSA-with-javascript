@@ -158,3 +158,8 @@ function removeDuplicates(arr){
 
 
 console.log(removeDuplicates([1,2,2,5,6,8,2]))
+
+
+    function removeAllElement(arr,key){
+        let nonRepetative
+    }
